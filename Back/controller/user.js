@@ -5,9 +5,9 @@ export async function registerUser(req ,res){
     try{
         const userData = new User(req.body)
         
-        await userData.save()
-        console.log(userData);
-        res.status(201).send({ message:"User added", })
+        await userData.save(res.status(201).send({ message:"User added", }))
+        // console.log(userData);
+        
     }
     catch(error){
         return res.status(500).send({
