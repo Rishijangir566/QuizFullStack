@@ -21,8 +21,8 @@ export async function addCategory(req,res){
    
     try{
         const category = new Category(req.body)
-        await category.save()
-        res.status(201).send({ message: "Category Created" })
+        await category.save(res.status(201).send({ message: "Category Created" }))
+        
     }catch (error) {
         return res
           .status(500)
