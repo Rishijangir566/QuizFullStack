@@ -1,6 +1,6 @@
 import express from "express"
 import "dotenv/config"
-import cors from cors
+import cors from "cors"
 import { connectToDb } from "./db.js"
 import { quizRouter } from "./Routes/quizRouter.js"
 
@@ -10,8 +10,7 @@ const port = process.env.PORT
 
 app.use(cors({
     origin:process.env.FRONT_END_PATH,
-    method:["GET" , "POST","PUT","PATCH","DELETE",],
-    credential:true
+    
 }))
 
 app.use(express.json())
