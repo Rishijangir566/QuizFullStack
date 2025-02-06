@@ -9,6 +9,6 @@ quizRouter.post("/user/save", registerUser)
 quizRouter.get("/category/get", getCategories)
 quizRouter.post("/category/save", addCategory)
 quizRouter.post("/question/save", addQuestion)
-quizRouter.get("/question/get/:id", getQuestionCat)
+quizRouter.get("/question/get/:category", getQuestionCat)
 
 

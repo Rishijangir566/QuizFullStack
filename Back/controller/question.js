@@ -17,9 +17,19 @@ export async function addQuestion (req,res){
 
 export async function getQuestionCat (req,res){
     try{
-        const question = await Questions.find({Category:req.body.category});
+        const {category}=req.params;
+        if(!category)
+            return res.status(201).send({error:" categories not valid 1"})
+
+        const  categoryExists= Category.find({name:category})
+
+        if(!categoryExists)
+            return res.status(201).send({error:" categories not valid"})
+        
+        const question = await Questions.find({category});
         if(!question || question.length===0){
-      return res.status(201).send({error:"no categories found"})
+            
+            return res.status(201).send({error:"No question found"})
         }
         return res.send(question)
     }
