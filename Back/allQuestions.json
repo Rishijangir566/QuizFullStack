@@ -1,0 +1,281 @@
+
+
+[
+
+
+{
+    "question": "Who directed the movie 'Inception'?",
+    "answer": "Christopher Nolan",
+    "options": ["Steven Spielberg", "Christopher Nolan", "James Cameron", "Quentin Tarantino"],
+    "category": "entertainment"
+  },
+  {
+    "question": "Which TV series features the character Walter White?",
+    "answer": "Breaking Bad",
+    "options": ["Breaking Bad", "Game of Thrones", "Sherlock", "Stranger Things"],
+    "category": "entertainment"
+  },
+  {
+    "question": "Which actor played Iron Man in the Marvel Cinematic Universe?",
+    "answer": "Robert Downey Jr.",
+    "options": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Tom Holland"],
+    "category": "entertainment"
+  },
+  {
+    "question": "Which is the highest-grossing movie of all time (as of 2024)?",
+    "answer": "Avatar",
+    "options": ["Titanic", "Avengers: Endgame", "Avatar", "Jurassic World"],
+    "category": "entertainment"
+  },
+  {
+    "question": "Which singer is known as the 'King of Pop'?",
+    "answer": "Michael Jackson",
+    "options": ["Elvis Presley", "Freddie Mercury", "Michael Jackson", "Prince"],
+    "category": "entertainment"
+  },
+  {
+    "question": "Which animated movie features the song 'Let It Go'?",
+    "answer": "Frozen",
+    "options": ["Moana", "Tangled", "Frozen", "The Lion King"],
+    "category": "entertainment"
+  },
+  {
+    "question": "Which film won the Oscar for Best Picture in 2023?",
+    "answer": "Everything Everywhere All at Once",
+    "options": ["Top Gun: Maverick", "Avatar: The Way of Water", "Everything Everywhere All at Once", "The Fabelmans"],
+    "category": "entertainment"
+  },
+  {
+    "question": "Who played the role of Jack Dawson in 'Titanic'?",
+    "answer": "Leonardo DiCaprio",
+    "options": ["Johnny Depp", "Leonardo DiCaprio", "Brad Pitt", "Tom Cruise"],
+    "category": "entertainment"
+  },
+  {
+    "question": "Which popular TV series is based on George R.R. Martin's books?",
+    "answer": "Game of Thrones",
+    "options": ["The Witcher", "Game of Thrones", "Vikings", "The Last Kingdom"],
+    "category": "entertainment"
+  },
+  {
+    "question": "Which singer released the hit song 'Shape of You'?",
+    "answer": "Ed Sheeran",
+    "options": ["Justin Bieber", "Ed Sheeran", "Shawn Mendes", "Bruno Mars"],
+    "category": "entertainment"
+  },
+  {
+    "question": "Who won the Grammy Award for Album of the Year in 2024?",
+    "answer": "Taylor Swift",
+    "options": ["Adele", "Billie Eilish", "Taylor Swift", "Harry Styles"],
+    "category": "entertainment"
+  },
+  {
+    "question": "Which video game franchise features characters like Mario and Luigi?",
+    "answer": "Super Mario",
+    "options": ["Sonic the Hedgehog", "Super Mario", "The Legend of Zelda", "Minecraft"],
+    "category": "entertainment"
+  },
+  {
+    "question": "Which actor played the Joker in 'The Dark Knight'?",
+    "answer": "Heath Ledger",
+    "options": ["Joaquin Phoenix", "Heath Ledger", "Jared Leto", "Jack Nicholson"],
+    "category": "entertainment"
+  },
+  {
+    "question": "What is the name of the fictional continent in 'Lord of the Rings'?",
+    "answer": "Middle-earth",
+    "options": ["Westeros", "Hogwarts", "Middle-earth", "Narnia"],
+    "category": "entertainment"
+  },
+  {
+    "question": "Who directed the movie 'The Godfather'?",
+    "answer": "Francis Ford Coppola",
+    "options": ["Martin Scorsese", "Francis Ford Coppola", "Quentin Tarantino", "Alfred Hitchcock"],
+    "category": "entertainment"
+  }, 
+
+
+
+  {
+    "question": "Which team won the first-ever ICC T20 World Cup in 2007?",
+    "answer": "India",
+    "options": ["Pakistan", "India", "Australia", "England"],
+    "category": "cricket"
+  },
+  {
+    "question": "Who has scored the most centuries in international cricket?",
+    "answer": "Sachin Tendulkar",
+    "options": ["Virat Kohli", "Ricky Ponting", "Sachin Tendulkar", "Jacques Kallis"],
+    "category": "cricket"
+  },
+  {
+    "question": "Who was the first bowler to take 10 wickets in a single Test innings?",
+    "answer": "Jim Laker",
+    "options": ["Anil Kumble", "Jim Laker", "Ajaz Patel", "Muttiah Muralitharan"],
+    "category": "cricket"
+  },
+  {
+    "question": "Which team has won the most ICC cricket World Cups?",
+    "answer": "Australia",
+    "options": ["India", "Australia", "West Indies", "England"],
+    "category": "cricket"
+  },
+  {
+    "question": "What is the length of a cricket pitch?",
+    "answer": "22 yards",
+    "options": ["20 yards", "22 yards", "24 yards", "18 yards"],
+    "category": "cricket"
+  },
+  {
+    "question": "Who scored the first double century in ODI cricket?",
+    "answer": "Sachin Tendulkar",
+    "options": ["Virender Sehwag", "Rohit Sharma", "Chris Gayle", "Sachin Tendulkar"],
+    "category": "cricket"
+  },
+  {
+    "question": "What is the maximum number of overs allowed per bowler in a T20 match?",
+    "answer": "4",
+    "options": ["3", "4", "5", "6"],
+    "category": "cricket"
+  },
+  {
+    "question": "Which country hosted the 2019 cricket World Cup?",
+    "answer": "England",
+    "options": ["India", "Australia", "England", "South Africa"],
+    "category": "cricket"
+  },
+  {
+    "question": "Which cricketer is known as 'The Wall'?",
+    "answer": "Rahul Dravid",
+    "options": ["Sourav Ganguly", "Virat Kohli", "Rahul Dravid", "Gautam Gambhir"],
+    "category": "cricket"
+  },
+  {
+    "question": "Who won the IPL (Indian Premier League) title in 2023?",
+    "answer": "Chennai Super Kings",
+    "options": ["Mumbai Indians", "Gujarat Titans", "Chennai Super Kings", "Rajasthan Royals"],
+    "category": "cricket"
+  },
+  {
+    "question": "Which Indian bowler has taken the most wickets in Test cricket?",
+    "answer": "Anil Kumble",
+    "options": ["Kapil Dev", "Zaheer Khan", "Ravichandran Ashwin", "Anil Kumble"],
+    "category": "cricket"
+  },
+  {
+    "question": "Who was the first batsman to score 100 international centuries?",
+    "answer": "Sachin Tendulkar",
+    "options": ["Virat Kohli", "Ricky Ponting", "Sachin Tendulkar", "Kumar Sangakkara"],
+    "category": "cricket"
+  },
+  {
+    "question": "Which bowler has taken the most wickets in T20 Internationals?",
+    "answer": "Shakib Al Hasan",
+    "options": ["Lasith Malinga", "Shakib Al Hasan", "Rashid Khan", "Jasprit Bumrah"],
+    "category": "cricket"
+  },
+  {
+    "question": "Who hit six sixes in an over in the 2007 T20 World Cup?",
+    "answer": "Yuvraj Singh",
+    "options": ["Chris Gayle", "Yuvraj Singh", "AB de Villiers", "MS Dhoni"],
+    "category": "cricket"
+  },
+  {
+    "question": "Who is the captain of the Indian men's cricket team in 2024?",
+    "answer": "Rohit Sharma",
+    "options": ["Virat Kohli", "KL Rahul", "Rohit Sharma", "Shubman Gill"],
+    "category": "cricket"
+  },
+
+  {
+    "question": "What does HTML stand for?",
+    "answer": "HyperText Markup Language",
+    "options": ["HyperText Markup Language", "HighText Machine Language", "Hyper Transfer Markup Language", "HyperLink and Text Markup Language"],
+    "category": "programming"
+  },
+  {
+    "question": "Which programming language is known as the 'mother of all languages'?",
+    "answer": "C",
+    "options": ["Java", "C", "Python", "Assembly"],
+    "category": "programming"
+  },
+  {
+    "question": "Who created the Python programming language?",
+    "answer": "Guido van Rossum",
+    "options": ["Dennis Ritchie", "James Gosling", "Guido van Rossum", "Bjarne Stroustrup"],
+    "category": "programming"
+  },
+  {
+    "question": "What is the output of `print(2**3)` in Python?",
+    "answer": "8",
+    "options": ["6", "8", "9", "16"],
+    "category": "programming"
+  },
+  {
+    "question": "Which data structure follows the LIFO principle?",
+    "answer": "Stack",
+    "options": ["Queue", "Stack", "Linked List", "Array"],
+    "category": "programming"
+  },
+  {
+    "question": "Which company developed Java?",
+    "answer": "Sun Microsystems",
+    "options": ["Microsoft", "Sun Microsystems", "IBM", "Oracle"],
+    "category": "programming"
+  },
+  {
+    "question": "Which of the following is a front-end framework?",
+    "answer": "React",
+    "options": ["Django", "Flask", "React", "Node.js"],
+    "category": "programming"
+  },
+  {
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "answer": "var",
+    "options": ["int", "var", "string", "define"],
+    "category": "programming"
+  },
+  {
+    "question": "What does CSS stand for?",
+    "answer": "Cascading Style Sheets",
+    "options": ["Computer Style Sheets", "Cascading Style Sheets", "Colorful Style Sheets", "Creative Style Sheets"],
+    "category": "programming"
+  },
+  {
+    "question": "Which programming language is primarily used for Android app development?",
+    "answer": "Java",
+    "options": ["Swift", "Java", "Kotlin", "Dart"],
+    "category": "programming"
+  },
+  {
+    "question": "Which of the following is NOT a relational database?",
+    "answer": "MongoDB",
+    "options": ["MySQL", "PostgreSQL", "MongoDB", "SQLite"],
+    "category": "programming"
+  },
+  {
+    "question": "Which command is used to initialize a Git repository?",
+    "answer": "git init",
+    "options": ["git start", "git init", "git commit", "git push"],
+    "category": "programming"
+  },
+  {
+    "question": "Which symbol is used for single-line comments in Python?",
+    "answer": "#",
+    "options": ["//", "#", "/*", "--"],
+    "category": "programming"
+  },
+  {
+    "question": "What is the file extension for a JavaScript file?",
+    "answer": ".js",
+    "options": [".java", ".js", ".py", ".html"],
+    "category": "programming"
+  },
+  {
+    "question": "Which method is used to find the length of a string in JavaScript?",
+    "answer": "length",
+    "options": ["count()", "size()", "length", "len()"],
+    "category": "programming"
+  }
+
+]
