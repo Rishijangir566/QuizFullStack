@@ -34,6 +34,7 @@ export async function getQuestion(req, res){
 
 export async function getQuestionCat (req,res){
     try{
+        let query ={};
         const {category}=req.params;
         if(!category)
             return res.status(500).send({error:" categories not valid 1"})
@@ -42,13 +43,28 @@ export async function getQuestionCat (req,res){
 
         if(!categoryExists)
             return res.status(500).send({error:" categories not valid"})
+
+        query.category=category
+
+        const page =req.query.page ? Number(req.query.page):1;
+        const limit=10
+        const skip=(page-1)*limit;
+
+        const question = await Questions.find(query).skip(skip).limit(limit);
+        // const question = await Questions.find({category})
+
         
-        const question = await Questions.find({category});
         if(!question || question.length===0){
             
             return res.status(500).send({error:"No question found"})
         }
-        return res.send(question)
+        
+        const totalQuestions =await Questions.countDocuments(query);
+        return res.send({
+            question,
+            currentpage:page,
+            totalpage:Math.ceil(totalQuestions /limit),
+        });
     }
     catch(error){
         return res.status(401).send({ error: "Error adding question", message: error.message }) 
