@@ -4,7 +4,7 @@ import instance from "./axiosConfig"
 function App() {
 
   useEffect(()=>{
-  //  fetchQuestion()
+   fetchQuestion()
   },[])
 
   async function fetchQuestion (){
