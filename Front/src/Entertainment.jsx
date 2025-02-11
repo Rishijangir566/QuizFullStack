@@ -12,6 +12,12 @@ function Entertainment() {
         
     }
 
+    async function nextQues(page){
+        const response = await instance.get(`/quiz/question/get/entertainment/?page=${page}`)
+        setData(response.data.question)
+        console.log(response.data.question);
+    }
+
     useEffect(()=>{
         fetchQuestion()
     },[])
@@ -22,12 +28,18 @@ function Entertainment() {
         data.map((item)=>{
         return  <div key={item.id}>
             {
-                <h2 key={item.id}>{item.question} <p key={item.id}>{item.options} </p> </h2>
-                
+               <div>{item.question} <p className=" bg-amber-300">{
+                item.options.map((option)=>{
+                    return  <p key={item.id}>{option}</p>
+                    
+                })
+            } </p> </div>                
             }
              </div>
         })
     }
+     <button onClick={fetchQuestion}>Back </button>
+     <button onClick={()=>nextQues(2)}>Next </button>
     </>
   )
 }

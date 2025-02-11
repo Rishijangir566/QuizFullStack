@@ -5,7 +5,7 @@ import Programming from "./Programming";
 import Entertainment from "./Entertainment";
 function QuesType() {
          const navigate = useNavigate()
-       async function fetchProgramming(){
+        function fetchProgramming(){
            navigate(<Programming/>)
         }
         function fetchCricket(){
