@@ -23,20 +23,23 @@ function Programming() {
     return (
         <>
             {
-                data.length > 0 &&
+                data.length > 0 ?(
                 data.map((item) => {
                     return (<div key={item.id}>
                         {
-                            <div>{item.question} <p className=" bg-amber-300">{
-                                item.options.map((option) => {
-                                    return <p key={item.id}>{option}</p>
-
-                                })
-                            } </p> </div>
+                            <>
+                            <div className="bg-purple-400 my-2">{item.question} </div> 
+                            <h2 className=" bg-amber-300 my-1">{
+                             item.options.map((option)=>{
+                                 return  <p key={item.id}>{option}</p>
+                                 
+                             })
+                         } </h2>                
+                             </>
                         }
                     </div>
                     )
-                })
+                })):"Loading ..."
             }
             <button onClick={fetchQuestion}>Back </button>
             <button onClick={() => nextQues(2)}>Next </button>
